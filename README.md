@@ -8,4 +8,4 @@
   The file train_model.ipynb provides training of EEGNet model where in-subject train_test_split provided accuracy of 75%(without normalising data) which after normalisation gave an accuracy of 78%.
   The cross subject accuracy remains at 75.04% for EEGNet model before and after normalising with an f1-score of 0.43 through both iterations of training.
 
-  The file train_other.ipynb provided training of TSception model where the in-subject validation accuracy is 76%.
+  The file train_other.ipynb provided training of TSception model where the in-subject validation accuracy is 76%(for normalised data) and 74.22%(for original data).
